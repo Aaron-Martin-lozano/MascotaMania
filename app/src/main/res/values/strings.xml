@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_inicio_sesion">Bienvenido a MascotaMania</string>
+    <string name="text_main">PetManager</string>
+    <string name="boton_tus_mascotas">Tus Mascotas</string>
+    <string name="boton_añadir_mascota">Añadir Mascota</string>
+    <string name="boton_comunidad">Comunidad</string>
+    <string name="boton_artivulosyconsejos">Artículos y Consejos</string>
+    <string name="boton_adopcion">Adopción</string>
+    <string name="boton_cerrar_sesion">Cerrar sesión</string>
+    <string name="boton_iniciar_sedion">Entrar</string>
+
+    <string name="text_perfil_mascota">Perfil de la Mascota</string>
+    <string name="hint_nombre_mascota">Nombre de la mascota</string>
+    <string name="hint_edad_mascota">Edad de la mascota</string>
+    <string name="hint_especie">Especie</string>
+    <string name="hint_dueño">Dueño de la mascota</string>
+    <string name="boton_guardar_perfil">Guardar Perfil</string>
+
+    <string name="text_actualizar_mascota">Perfil de la Mascota a actualizar</string>
+    <string name="boton_actualizar_perfil">Actualizar Perfil</string>
+
+    <string name="boton_volver">Volver</string>
+
+    <string name="boton_agregar_pregunta">Agregar Pregunta</string>
+
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_correo_usuario">Correo del usuario</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="hint_correo">Correo ELectronico</string>
+    <string name="text_sesion"><u>Inicio de sesión</u></string>
+    <string name="text_reg">¿No estas registrado? Hazlo aqui: </string>
+    <string name="boton_registarse">Registrarse</string>
+
+    <string name="text_registro">Registro de usuario</string>
+    <string name="title_activity_tus_mascotas">TusMascotasActivity</string>
+
+    <string name="pregunta">Escribe tu pregunta</string>
+    <string name="texto_pregunta">¿Que pregunta tienes?</string>
+    <string name="boton_aceptar">Aceptar</string>
+
+    <string name="lista_nombre">Nombre</string>
+    <string name="lista_edad">Edad</string>
+    <string name="lista_especie">Especie</string>
+    <string name="lista_dueño">Dueño</string>
+    <string name="boton_lista_editar">Editar</string>
+    <string name="boton_lista_borrar">Borrar</string>
+    <string name="imagen_lista">Imagen de la mascota</string>
+    <string name="lista_pregunta">Pregunta</string>
+    <string name="lista_autor">Autor</string>
+    <string name="lista_titulo">Titulo</string>
+    <string name="lista_estado">Estado</string>
+
+
+</resources>

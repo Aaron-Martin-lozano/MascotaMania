@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C00BCD4"
+    tools:context="com.aaron.mascotamania.InicioSesionActivity">
+
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="217dp"
+        android:layout_height="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/hint_correo_usuario"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/textInicioSesion"
+        app:layout_constraintTop_toBottomOf="@+id/textInicioSesion" />
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/hint_contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsuario" />
+
+    <TextView
+        android:id="@+id/textInicioSesion"
+        android:layout_width="216dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/text_sesion"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/text_reg"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editTextContraseña"
+        app:layout_constraintStart_toStartOf="@+id/editTextContraseña"
+        app:layout_constraintTop_toBottomOf="@+id/editTextContraseña" />
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/boton_registarse"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/buttonIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/boton_iniciar_sedion"
+        android:textColorLink="#4CAF50"
+        app:layout_constraintEnd_toEndOf="@+id/editTextContraseña"
+        app:layout_constraintStart_toStartOf="@+id/editTextContraseña"
+        app:layout_constraintTop_toBottomOf="@+id/editTextContraseña" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/text_inicio_sesion"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

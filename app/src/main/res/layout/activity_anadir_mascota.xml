@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C00BCD4">
+
+    <!-- Puedes añadir más campos aquí, como especie, raza, etc. -->
+
+    <TextView
+        android:id="@+id/textViewMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="268dp"
+        android:text="@string/text_perfil_mascota"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_nombre_mascota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewMascota"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMascota" />
+
+    <EditText
+        android:id="@+id/editTextEdadMascota"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFF"
+        android:hint="@string/hint_edad_mascota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNombreMascota"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreMascota" />
+
+
+    <Button
+        android:id="@+id/buttonGuardarPerfilMascota"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/boton_guardar_perfil"
+        app:layout_constraintStart_toStartOf="@+id/editTextEpecie"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEpecie" />
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/boton_volver"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEpecie"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEpecie" />
+
+    <EditText
+        android:id="@+id/editTextEpecie"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/hint_especie"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEdadMascota"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextEdadMascota"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEdadMascota" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

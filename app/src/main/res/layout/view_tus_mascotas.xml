@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#9c9c9c">
+
+
+    <ImageView
+        android:id="@+id/ivMascota"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imagen_lista" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_nombre"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_edad"
+            android:textSize="14sp"
+            android:paddingBottom="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvEspecie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_especie"
+            android:textSize="14sp"
+            android:paddingBottom="5dp" />
+
+
+        <TextView
+            android:id="@+id/tvDueño"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_dueño"
+            android:textSize="14sp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/estilo_botones"
+            android:text="@string/boton_lista_editar"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_eliminar"
+            android:text="@string/boton_lista_borrar" />
+    </LinearLayout>
+</LinearLayout>

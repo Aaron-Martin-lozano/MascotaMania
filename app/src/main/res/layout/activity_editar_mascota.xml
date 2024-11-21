@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C00BCD4">
+
+    <!-- Puedes añadir más campos aquí, como especie, raza, etc. -->
+
+    <TextView
+        android:id="@+id/textViewActualizarMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="228dp"
+        android:text="@string/text_actualizar_mascota"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNombreMascotaActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_nombre_mascota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewActualizarMascota"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActualizarMascota" />
+
+    <EditText
+        android:id="@+id/editTextEdadMascotaActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFF"
+        android:hint="@string/hint_edad_mascota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNombreMascotaActualizar"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombreMascotaActualizar" />
+
+
+    <Button
+        android:id="@+id/buttonActualizarMascota"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/boton_actualizar_perfil"
+        app:layout_constraintStart_toStartOf="@+id/editTextEpecieActualizar"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEpecieActualizar" />
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/estilo_botones"
+        android:text="@string/boton_volver"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEpecieActualizar"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEpecieActualizar" />
+
+    <EditText
+        android:id="@+id/editTextEpecieActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/hint_especie"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEdadMascotaActualizar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextEdadMascotaActualizar"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEdadMascotaActualizar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

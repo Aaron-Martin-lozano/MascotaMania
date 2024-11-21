@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456938682171",
+    "project_id": "bdproyectomascotas",
+    "storage_bucket": "bdproyectomascotas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456938682171:android:1d185c7b7feb573fa6e91e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8rWxGzVN_ff4WHXGzPASGVxqX4R7PTgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
