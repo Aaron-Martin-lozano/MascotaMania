@@ -85,7 +85,7 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            // Obtenemod el usuario recién creado
+
                             FirebaseUser user = auth.getCurrentUser();
                             if (user != null) {
                                 String id = user.getUid();
