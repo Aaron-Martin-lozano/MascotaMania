@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">MascotaMania</string>
     <string name="text_inicio_sesion">Bienvenido a MascotaMania</string>
     <string name="text_main">PetManager</string>
     <string name="boton_tus_mascotas">Tus Mascotas</string>
